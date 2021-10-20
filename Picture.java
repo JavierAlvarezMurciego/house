@@ -54,6 +54,21 @@ public class Picture
         sun.moveVertical(-40);
         sun.changeSize(80);
         sun.makeVisible();
+        
+        Square square1 = new Square();
+        square1.makeVisible();
+        square1.changeColor("green");
+        square1.moveDown();
+        square1.moveDown();
+        square1.moveDown();
+        square1.moveDown();
+        square1.moveDown();
+        square1.moveDown();
+        square1.moveDown();
+        square1.changeSize(550);
+        square1.moveHorizontal(-300);
+        square1.moveHorizontal(-50);    
+
     }
 
     /**
