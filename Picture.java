@@ -68,17 +68,7 @@ public class Picture
         square1.changeSize(550);
         square1.moveHorizontal(-300);
         square1.moveHorizontal(-50);
-        
-        Person person1 = new Person();
-        person1.makeVisible();
-        person1.moveDown();
-        person1.moveDown();
-        person1.moveHorizontal(-200);
-        person1.slowMoveHorizontal(10);
-        person1.slowMoveHorizontal(10);
-        person1.slowMoveHorizontal(10);
-        person1.slowMoveHorizontal(10);
-        person1.slowMoveHorizontal(10);
+    
     }
 
     /**
@@ -120,6 +110,16 @@ public class Picture
             sun.slowMoveVertical(20);
             sun.slowMoveVertical(20);
             sun.slowMoveVertical(20);
+            Person person1 = new Person();
+            person1.makeVisible();
+            person1.moveDown();
+            person1.moveDown();
+            person1.moveHorizontal(-200);
+            person1.slowMoveHorizontal(10);
+            person1.slowMoveHorizontal(10);
+            person1.slowMoveHorizontal(10);
+            person1.slowMoveHorizontal(10);
+            person1.slowMoveHorizontal(10);
         } 
     }
     
