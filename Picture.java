@@ -68,7 +68,17 @@ public class Picture
         square1.changeSize(550);
         square1.moveHorizontal(-300);
         square1.moveHorizontal(-50);
-
+        
+        Person person1 = new Person();
+        person1.makeVisible();
+        person1.moveDown();
+        person1.moveDown();
+        person1.moveHorizontal(-200);
+        person1.slowMoveHorizontal(10);
+        person1.slowMoveHorizontal(10);
+        person1.slowMoveHorizontal(10);
+        person1.slowMoveHorizontal(10);
+        person1.slowMoveHorizontal(10);
     }
 
     /**
@@ -105,11 +115,12 @@ public class Picture
     */
     public void atardecer()
     {
-        if (wall !=null) //only is it´s painted already..
+        if (wall !=null) //only is it´s painted already...
         {
             sun.slowMoveVertical(20);
             sun.slowMoveVertical(20);
             sun.slowMoveVertical(20);
         } 
     }
-}
+    
+ }
