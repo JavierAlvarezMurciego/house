@@ -67,7 +67,7 @@ public class Picture
         square1.moveDown();
         square1.changeSize(550);
         square1.moveHorizontal(-300);
-        square1.moveHorizontal(-50);    
+        square1.moveHorizontal(-50);
 
     }
 
@@ -97,5 +97,19 @@ public class Picture
             roof.changeColor("green");
             sun.changeColor("yellow");
         }
+    }
+    
+    
+    /**
+     * Change this picture to see sunset
+    */
+    public void atardecer()
+    {
+        if (wall !=null) //only is it´s painted already..
+        {
+            sun.slowMoveVertical(20);
+            sun.slowMoveVertical(20);
+            sun.slowMoveVertical(20);
+        } 
     }
 }
